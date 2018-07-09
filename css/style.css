@@ -4,7 +4,6 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
 .container {
     height: 100%;
     position: relative;
@@ -18,20 +17,17 @@ h1 {
     margin: 0 0 10px 0;
     text-align: center;
 }
-
-#hide-listings,
-#show-listings, {
+#hide-listings, #show-listings, {
     width: 48%;
 }
-
 #map {
-    bottom:0px;
+    bottom: 0px;
     height: 100%;
     left: 362px;
     position: absolute;
     right: 0px;
 }
-.option-bo {
+.option-box {
     background: #fff;
     border: 1px solid #999;
     border-radius: 3px;
@@ -40,4 +36,11 @@ h1 {
     padding: 10px 10px 30px 10px;
     text-align: left;
     width: 340px;
+}
+#pano {
+    width: 200px;
+    height: 200px;
+}
+.text {
+    font-size: 12px;
 }
