@@ -15,13 +15,12 @@ function initMap() {
     // These are the real estate listings that will be shown to the user.
     // Normally we'd have these in a database instead.
     var locations = [
-      {title: 'Surf Culture', location: {lat: -33.893640, lng: 151.262573}},
-      {title: 'Mark Surfboard Hire Bondi', location: {lat: -33.893481, lng: 151.27134}},
+      {title: "Surf Culture", location: {lat: -33.893640, lng: 151.262573}},
+      {title: "Sunburnt Mess", location: {lat: -33.886504, lng: 151.277402}},
       {title: 'Bondi Surf Co', location: {lat: -33.891892, lng: 151.272934}},
-      {title: 'Vida Surf Shop Cafe', location: {lat: -33.889021, lng: 151.274989}},
-      {title: 'Let’s go Surfing', location: {lat: -33.890389, lng: 151.273015}},
-      {title: 'Surfection Bondi Beach', location: {lat: -33.890389, lng: 151.273015}}
-      {title: 'Sunburnt Mess', location: {lat: -33.886504, lng: 151.277402}}
+      {title: "Vida Surf Shop Cafe", location: {lat: -33.889021, lng: 151.274989}},
+      {title: "Let’s go Surfing", location: {lat: -33.890389, lng: 151.273015}},
+      {title: "Mark's Surfboard Hire Bondi", location: {lat: -33.893481, lng: 151.27134}}
     ];
 
     var largeInfowindow = new google.maps.InfoWindow();
