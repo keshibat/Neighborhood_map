@@ -6,57 +6,24 @@ function initMap() {
     // Constructor creates a new map - only center and zoom are required.
     map = new google.maps.Map(document.getElementById('map'), {
         center: {
-            lat: 40.7413549,
-            lng: -73.9980244
+            lat: -33.890475,
+            lng: 151.273344
         },
         zoom: 13,
         mapTypeControl: false
     });
     // These are the real estate listings that will be shown to the user.
     // Normally we'd have these in a database instead.
-    var locations = [{
-            title: 'Park Ave Penthouse',
-            location: {
-                lat: 40.7713024,
-                lng: -73.9632393
-            }
-        },
-        {
-            title: 'Chelsea Loft',
-            location: {
-                lat: 40.7444883,
-                lng: -73.9949465
-            }
-        },
-        {
-            title: 'Union Square Open Floor Plan',
-            location: {
-                lat: 40.7347062,
-                lng: -73.9895759
-            }
-        },
-        {
-            title: 'East Village Hip Studio',
-            location: {
-                lat: 40.7281777,
-                lng: -73.984377
-            }
-        },
-        {
-            title: 'TriBeCa Artsy Bachelor Pad',
-            location: {
-                lat: 40.7195264,
-                lng: -74.0089934
-            }
-        },
-        {
-            title: 'Chinatown Homey Space',
-            location: {
-                lat: 40.7180628,
-                lng: -73.9961237
-            }
-        }
+    var locations = [
+      {title: 'Surf Culture', location: {lat: -33.893640, lng: 151.262573}},
+      {title: 'Mark Surfboard Hire Bondi', location: {lat: -33.893481, lng: 151.27134}},
+      {title: 'Bondi Surf Co', location: {lat: -33.891892, lng: 151.272934}},
+      {title: 'Vida Surf Shop Cafe', location: {lat: -33.889021, lng: 151.274989}},
+      {title: 'Let’s go Surfing', location: {lat: -33.890389, lng: 151.273015}},
+      {title: 'Surfection Bondi Beach', location: {lat: -33.890389, lng: 151.273015}}
+      {title: 'Sunburnt Mess', location: {lat: -33.886504, lng: 151.277402}}
     ];
+
     var largeInfowindow = new google.maps.InfoWindow();
     // Style the markers a bit. This will be our listing marker icon.
     var defaultIcon = makeMarkerIcon('0091ff');
